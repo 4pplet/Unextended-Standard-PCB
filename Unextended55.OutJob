@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=waffling60-ALPS.OutJob
+Name=Unextended55.OutJob
 Description=
 TargetOutputMedium=Production output
 VariantName=[No Variations]
@@ -152,7 +152,7 @@ OutputEnabled7_OutputMedium4=0
 OutputEnabled7_OutputMedium5=0
 OutputDefault7=0
 Configuration7_Name1=OutputConfigurationParameter1
-Configuration7_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=False|IncludeElectricalPadHoles=False|IncludeFreePadHoles=False|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=1|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False|DocumentPath=C:\Users\Stefan\Documents\GitHub\waffling60\waffling60-ALPS\waffling60-ALPS.PcbDoc
+Configuration7_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=100|ComponentSuffixType=0|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False|DocumentPath=C:\Users\Stefan Sundin\Documents\GitHub\ASK\Unextended55.PcbDoc
 OutputType8=PDF3D
 OutputName8=PDF3D_All
 OutputCategory8=Documentation
@@ -187,7 +187,7 @@ Configuration9_Item1=Record=Pcb3DPrintView|ResX=600|ResY=600|ViewX=117008816|Vie
 [PublishSettings]
 OutputFilePath2=Project Outputs for Free Documents\2021-06-29\
 ReleaseManaged2=1
-OutputBasePath2=Project Outputs for alps-cherry
+OutputBasePath2=Project Outputs for Free Documents
 OutputPathMedia2==CurrentDate
 OutputPathMediaValue2==CurrentDate
 OutputPathOutputer2=[Output Custom]
@@ -214,7 +214,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=C:\Users\Stefan\Documents\GitHub\waffling60\waffling60-ALPS\Project Outputs for alps-cherry\2022-09-21\
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for alps-cherry
+OutputBasePath3=Project Outputs for Free Documents
 OutputPathMedia3==CurrentDate
 OutputPathMediaValue3==CurrentDate
 OutputPathOutputer3=[Output Type]
@@ -227,7 +227,7 @@ OutputFileNameSpecial3=
 OpenOutput3=0
 OutputFilePath4=C:\Users\Stefan\Documents\GitHub\AEKISO60\Project Outputs for alps-cherry\2020-10-09\Prints.PDF
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for alps-cherry
+OutputBasePath4=Project Outputs for Free Documents
 OutputPathMedia4==CurrentDate
 OutputPathMediaValue4==CurrentDate
 OutputPathOutputer4=[Output Type]
@@ -254,7 +254,7 @@ PDFACompliance4=Disabled
 PDFVersion4=Default
 OutputFilePath5=C:\Users\Stefan\Documents\git\Steezy60\Steezy60-ALPS\Project Outputs for alps-cherry\Job1.PDF
 ReleaseManaged5=1
-OutputBasePath5=Project Outputs for alps-cherry
+OutputBasePath5=Project Outputs for Free Documents
 OutputPathMedia5==CurrentDate
 OutputPathMediaValue5==CurrentDate
 OutputPathOutputer5=[Output Type]
