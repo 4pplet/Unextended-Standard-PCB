@@ -15,13 +15,13 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Unextended55.OutJob
+Name=Unextended_Standard.OutJob
 Description=
-TargetOutputMedium=Production output
+TargetOutputMedium=Schematic
 VariantName=[No Variations]
 VariantScope=1
 CurrentConfigurationName=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Virtual Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -40,7 +40,7 @@ OutputName1=Gerber Files
 OutputCategory1=Fabrication
 OutputDocumentPath1=Unextended_Standard.PcbDoc
 OutputVariantName1=
-OutputEnabled1=1
+OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=0
 OutputEnabled1_OutputMedium3=1
@@ -54,7 +54,7 @@ OutputName2=NC Drill Files
 OutputCategory2=Fabrication
 OutputDocumentPath2=Unextended_Standard.PcbDoc
 OutputVariantName2=
-OutputEnabled2=1
+OutputEnabled2=0
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
 OutputEnabled2_OutputMedium3=2
@@ -90,7 +90,7 @@ OutputName4=CPL_All
 OutputCategory4=Assembly
 OutputDocumentPath4=Unextended_Standard.PcbDoc
 OutputVariantName4=
-OutputEnabled4=1
+OutputEnabled4=0
 OutputEnabled4_OutputMedium1=0
 OutputEnabled4_OutputMedium2=0
 OutputEnabled4_OutputMedium3=3
@@ -104,14 +104,14 @@ OutputName5=Schematic Prints
 OutputCategory5=Documentation
 OutputDocumentPath5=
 OutputVariantName5=
-OutputEnabled5=0
+OutputEnabled5=1
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=0
 OutputEnabled5_OutputMedium4=0
 OutputEnabled5_OutputMedium5=1
 OutputDefault5=0
-PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=2|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration5_Name1=OutputConfigurationParameter1
 Configuration5_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=All SCH Documents
 OutputType6=BOM_PartType
@@ -119,7 +119,7 @@ OutputName6=BOM_CSV_All
 OutputCategory6=Report
 OutputDocumentPath6=Unextended_Standard.PcbDoc
 OutputVariantName6=All
-OutputEnabled6=1
+OutputEnabled6=0
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
 OutputEnabled6_OutputMedium3=4
@@ -144,7 +144,7 @@ OutputName7=STEP_All
 OutputCategory7=Export
 OutputDocumentPath7=Unextended_Standard.PcbDoc
 OutputVariantName7=All
-OutputEnabled7=1
+OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=0
 OutputEnabled7_OutputMedium3=5
@@ -167,13 +167,13 @@ OutputEnabled8_OutputMedium5=0
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration8_Name1=OutputConfigurationParameter1
-Configuration8_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=8158|Scheme=0|ViewColorR0=255|ViewColorG0=255|ViewColorB0=255|ViewLignt0=1|ViewColorR1=255|ViewColorG1=255|ViewColorB1=255|ViewLignt1=9|ViewColorR2=255|ViewColorG2=255|ViewColorB2=255|ViewLignt2=9|ViewColorR3=255|ViewColorG3=255|ViewColorB3=255|ViewLignt3=9|DocumentPath=C:\Users\Stefan\Documents\GitHub\waffling60\waffling60-ALPS\waffling60-ALPS.PcbDoc
+Configuration8_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=8158|Scheme=0|ViewColorR0=255|ViewColorG0=255|ViewColorB0=255|ViewLignt0=1|ViewColorR1=255|ViewColorG1=255|ViewColorB1=255|ViewLignt1=9|ViewColorR2=255|ViewColorG2=255|ViewColorB2=255|ViewLignt2=9|ViewColorR3=255|ViewColorG3=255|ViewColorB3=255|ViewLignt3=9|DocumentPath=C:\Users\Stefan\GitHub\ASK\Unextended_Standard.PcbDoc
 OutputType9=PCB 3D Print
 OutputName9=PDF_All
 OutputCategory9=Documentation
 OutputDocumentPath9=Unextended_Standard.PcbDoc
 OutputVariantName9=All
-OutputEnabled9=1
+OutputEnabled9=0
 OutputEnabled9_OutputMedium1=0
 OutputEnabled9_OutputMedium2=0
 OutputEnabled9_OutputMedium3=6
@@ -182,12 +182,12 @@ OutputEnabled9_OutputMedium5=0
 OutputDefault9=0
 PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=0.76|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 Configuration9_Name1=OutputConfigurationParameter1
-Configuration9_Item1=Record=Pcb3DPrintView|ResX=600|ResY=600|ViewX=117008816|ViewY=79084008|LookAtX=398367360|LookAtY=141314176|LookAtZ=-15001.2724609375|UpX=0|UpY=1|UpZ=0|FOV=45|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.57680424091097E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=True|ViewFromTop=True|ScreenWidth=1845|ScreenHeight=1247|ImageOutputType=2|ViewConfig=RECORD\3Board\2CFGALL.CONFIGURATIONKIND\33\2CFGALL.CONFIGURATIONDESC\3Altium%203D%20NB%20Black%20Configuration\2CFGALL.COMPONENTBODYREFPOINTCOLOR\316777215\2CFGALL.COMPONENTBODYSNAPPOINTCOLOR\316777215\2CFGALL.SHOWCOMPONENTSNAPMARKERS\3FALSE\2CFGALL.SHOWCOMPONENTSNAPREFERENCE\3FALSE\2CFGALL.SHOWCOMPONENTSNAPCUSTOM\3FALSE\2CFG3D.POSITIVETOPSOLDERMASK\3TRUE\2CFG3D.POSITIVEBOTTOMSOLDERMASK\3TRUE\2CFG3D.SHOWCOMPONENTBODIES\3TRUE\2CFG3D.SHOWCOMPONENTSTEPMODELS\3TRUE\2CFG3D.COMPONENTMODELPREFERENCE\30\2CFG3D.SHOWCOMPONENTAXES\3TRUE\2CFG3D.SHOWBOARDCORE\3TRUE\2CFG3D.SHOWBOARDPREPREG\3TRUE\2CFG3D.SHOWTOPSILKSCREEN\3TRUE\2CFG3D.SHOWBOTSILKSCREEN\3TRUE\2CFG3D.SHOWORIGINMARKER\3TRUE\2CFG3D.EYEDIST\32147483647\2CFG3D.SHOWCUTOUTS\3TRUE\2CFG3D.SHOWROUTETOOLPATH\3TRUE\2CFG3D.SHOWROOMS3D\3FALSE\2CFG3D.USESYSCOLORSFOR3D\3FALSE\2CFG3D.WORKSPACECOLOR\311840160\2CFG3D.BOARDCORECOLOR\30\2CFG3D.BOARDPREPREGCOLOR\30\2CFG3D.TOPSOLDERMASKCOLOR\31907997\2CFG3D.BOTSOLDERMASKCOLOR\31907997\2CFG3D.COPPERCOLOR\312040119\2CFG3D.TOPSILKSCREENCOLOR\315461355\2CFG3D.BOTSILKSCREENCOLOR\315461355\2CFG3D.WORKSPACELUMINANCEVARIATION\330\2CFG3D.WORKSPACEBEGINCOLOR\316777215\2CFG3D.WORKSPACEENDCOLOR\316777215\2CFG3D.WORKSPACECOLOROPACITY\31.000000\2CFG3D.BOARDCORECOLOROPACITY\30.820000\2CFG3D.BOARDPREPREGCOLOROPACITY\30.500000\2CFG3D.TOPSOLDERMASKCOLOROPACITY\30.872993\2CFG3D.BOTSOLDERMASKCOLOROPACITY\30.861314\2CFG3D.COPPERCOLOROPACITY\31.000000\2CFG3D.TOPSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOTSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOARDTHICKNESSSCALING\31.000000\2CFG3D.SHOWMECHANICALLAYERS\3FALSE\2CFG3D.MECHANICALLAYERSOPACITY\31.000000\2CFG3D.MECHCOVERLAYERUPDATED\3FALSE|DocumentPath=C:\Users\Stefan\Documents\GitHub\waffling60\waffling60-ALPS\waffling60-ALPS.PcbDoc
+Configuration9_Item1=Record=Pcb3DPrintView|ResX=600|ResY=600|ViewX=117008816|ViewY=79084008|LookAtX=398367360|LookAtY=141314176|LookAtZ=-15001.2724609375|UpX=0|UpY=1|UpZ=0|FOV=45|QuatX=0|QuatY=0|QuatZ=0|QuatW=1|Zoom=1.57680424091097E-5|UnitsPercent=True|UnitsDPI=True|LockResAspect=True|ViewConfigType=.config_3d|CustomCamera=True|ViewFromTop=True|ScreenWidth=1845|ScreenHeight=1247|ImageOutputType=2|ViewConfig=RECORD\3Board\2CFGALL.CONFIGURATIONKIND\33\2CFGALL.CONFIGURATIONDESC\3Altium%203D%20NB%20Black%20Configuration\2CFGALL.COMPONENTBODYREFPOINTCOLOR\316777215\2CFGALL.COMPONENTBODYSNAPPOINTCOLOR\316777215\2CFGALL.SHOWCOMPONENTSNAPMARKERS\3FALSE\2CFGALL.SHOWCOMPONENTSNAPREFERENCE\3FALSE\2CFGALL.SHOWCOMPONENTSNAPCUSTOM\3FALSE\2CFG3D.POSITIVETOPSOLDERMASK\3TRUE\2CFG3D.POSITIVEBOTTOMSOLDERMASK\3TRUE\2CFG3D.SHOWCOMPONENTBODIES\3TRUE\2CFG3D.SHOWCOMPONENTSTEPMODELS\3TRUE\2CFG3D.COMPONENTMODELPREFERENCE\30\2CFG3D.SHOWCOMPONENTAXES\3TRUE\2CFG3D.SHOWBOARDCORE\3TRUE\2CFG3D.SHOWBOARDPREPREG\3TRUE\2CFG3D.SHOWTOPSILKSCREEN\3TRUE\2CFG3D.SHOWBOTSILKSCREEN\3TRUE\2CFG3D.SHOWORIGINMARKER\3TRUE\2CFG3D.EYEDIST\32147483647\2CFG3D.SHOWCUTOUTS\3TRUE\2CFG3D.SHOWROUTETOOLPATH\3TRUE\2CFG3D.SHOWROOMS3D\3FALSE\2CFG3D.USESYSCOLORSFOR3D\3FALSE\2CFG3D.WORKSPACECOLOR\311840160\2CFG3D.BOARDCORECOLOR\30\2CFG3D.BOARDPREPREGCOLOR\30\2CFG3D.TOPSOLDERMASKCOLOR\31907997\2CFG3D.BOTSOLDERMASKCOLOR\31907997\2CFG3D.COPPERCOLOR\312040119\2CFG3D.TOPSILKSCREENCOLOR\315461355\2CFG3D.BOTSILKSCREENCOLOR\315461355\2CFG3D.WORKSPACELUMINANCEVARIATION\330\2CFG3D.WORKSPACEBEGINCOLOR\316777215\2CFG3D.WORKSPACEENDCOLOR\316777215\2CFG3D.WORKSPACECOLOROPACITY\31.000000\2CFG3D.BOARDCORECOLOROPACITY\30.820000\2CFG3D.BOARDPREPREGCOLOROPACITY\30.500000\2CFG3D.TOPSOLDERMASKCOLOROPACITY\30.872993\2CFG3D.BOTSOLDERMASKCOLOROPACITY\30.861314\2CFG3D.COPPERCOLOROPACITY\31.000000\2CFG3D.TOPSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOTSILKSCREENCOLOROPACITY\31.000000\2CFG3D.BOARDTHICKNESSSCALING\31.000000\2CFG3D.SHOWMECHANICALLAYERS\3FALSE\2CFG3D.MECHANICALLAYERSOPACITY\31.000000\2CFG3D.MECHCOVERLAYERUPDATED\3FALSE|DocumentPath=C:\Users\Stefan\GitHub\ASK\Unextended_Standard.PcbDoc
 
 [PublishSettings]
-OutputFilePath2=Project Outputs for Free Documents\2021-06-29\
-ReleaseManaged2=1
-OutputBasePath2=Project Outputs for alps-cherry
+OutputFilePath2=C:\Users\Stefan\GitHub\ASK\Project Outputs for Unextended Standard\2022-12-19\
+ReleaseManaged2=0
+OutputBasePath2=Project Outputs for Unextended Standard\
 OutputPathMedia2==CurrentDate
 OutputPathMediaValue2==CurrentDate
 OutputPathOutputer2=[Output Custom]
@@ -212,9 +212,9 @@ ShowComponentParameters2=1
 GlobalBookmarks2=0
 PDFACompliance2=Disabled
 PDFVersion2=Default
-OutputFilePath3=C:\Users\Stefan\Documents\GitHub\waffling60\waffling60-ALPS\Project Outputs for alps-cherry\2022-09-21\
-ReleaseManaged3=1
-OutputBasePath3=Project Outputs for alps-cherry
+OutputFilePath3=C:\Users\Stefan\GitHub\ASK\Project Outputs for Unextended Standard\2022-12-19\
+ReleaseManaged3=0
+OutputBasePath3=Project Outputs for Unextended Standard\
 OutputPathMedia3==CurrentDate
 OutputPathMediaValue3==CurrentDate
 OutputPathOutputer3=[Output Type]
@@ -225,9 +225,9 @@ OutputFileNameMulti3=
 UseOutputNameForMulti3=1
 OutputFileNameSpecial3=
 OpenOutput3=0
-OutputFilePath4=C:\Users\Stefan\Documents\GitHub\AEKISO60\Project Outputs for alps-cherry\2020-10-09\Prints.PDF
-ReleaseManaged4=1
-OutputBasePath4=Project Outputs for alps-cherry
+OutputFilePath4=C:\Users\Stefan\GitHub\ASK\Project Outputs for Unextended Standard\2022-12-19\
+ReleaseManaged4=0
+OutputBasePath4=Project Outputs for Unextended Standard\
 OutputPathMedia4==CurrentDate
 OutputPathMediaValue4==CurrentDate
 OutputPathOutputer4=[Output Type]
@@ -252,9 +252,9 @@ ShowComponentParameters4=1
 GlobalBookmarks4=0
 PDFACompliance4=Disabled
 PDFVersion4=Default
-OutputFilePath5=C:\Users\Stefan\Documents\git\Steezy60\Steezy60-ALPS\Project Outputs for alps-cherry\Job1.PDF
-ReleaseManaged5=1
-OutputBasePath5=Project Outputs for alps-cherry
+OutputFilePath5=C:\Users\Stefan\GitHub\ASK\Project Outputs for Unextended Standard\2022-12-19\Schematic.PDF
+ReleaseManaged5=0
+OutputBasePath5=Project Outputs for Unextended Standard\
 OutputPathMedia5==CurrentDate
 OutputPathMediaValue5==CurrentDate
 OutputPathOutputer5=[Output Type]
@@ -281,9 +281,9 @@ PDFACompliance5=Disabled
 PDFVersion5=Default
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=Project Outputs for Free Documents\2021-06-29\
+RelativeOutputPath2=C:\Users\Stefan\GitHub\ASK\Project Outputs for Unextended Standard\2022-12-19\
 OpenOutputs2=0
-RelativeOutputPath3=C:\Users\Stefan\Documents\GitHub\waffling60\waffling60-ALPS\Project Outputs for alps-cherry\2022-09-21\
+RelativeOutputPath3=C:\Users\Stefan\GitHub\ASK\Project Outputs for Unextended Standard\2022-12-19\
 OpenOutputs3=0
 AddToProject3=0
 TimestampFolder3=0
@@ -293,8 +293,8 @@ OpenGerberOutput3=0
 OpenNCDrillOutput3=0
 OpenIPCOutput3=0
 EnableReload3=0
-RelativeOutputPath4=C:\Users\Stefan\Documents\GitHub\AEKISO60\Project Outputs for alps-cherry\2020-10-09\Prints.PDF
+RelativeOutputPath4=C:\Users\Stefan\GitHub\ASK\Project Outputs for Unextended Standard\2022-12-19\
 OpenOutputs4=0
-RelativeOutputPath5=C:\Users\Stefan\Documents\git\Steezy60\Steezy60-ALPS\Project Outputs for alps-cherry\Job1.PDF
+RelativeOutputPath5=C:\Users\Stefan\GitHub\ASK\Project Outputs for Unextended Standard\2022-12-19\Schematic.PDF
 OpenOutputs5=0
 
