@@ -176,17 +176,13 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PDTDDDYM
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for alps-cherry\Design Rule Check - Unextended55.html
-DItemRevisionGUID=
-
 [Parameter1]
-Name=Revision
-Value=A1
-
-[Parameter2]
 Name=ProjectTitle
 Value=Unextended Standard
+
+[Parameter2]
+Name=Revision
+Value=A1
 
 [Configuration1]
 Name=Sources
