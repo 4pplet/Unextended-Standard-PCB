@@ -181,12 +181,12 @@ DocumentPath=Project Outputs for alps-cherry\Design Rule Check - Unextended_Stan
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectTitle
-Value=Unextended Standard
+Name=Revision
+Value=A2
 
 [Parameter2]
-Name=Revision
-Value=A1
+Name=ProjectTitle
+Value=Unextended Standard
 
 [Configuration1]
 Name=Sources
