@@ -25,5 +25,6 @@ Files for manufacturing can be found in releases.
 
 ## Revision history:
 - Rev A1: Initial prototype.
+- Rev A2: Adding support for Apple Desktop Bus (ADB) Keyboard. Number row is rotated 90 degrees.
 
 <a href='https://ko-fi.com/4pplet' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
