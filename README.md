@@ -3,7 +3,7 @@
 This PCB is for use with the Standard-edition (the slimmer one) of my Unextended design (https://github.com/4pplet/Unextended). This PCB will NOT fit a standard 60% case or the regular Unextended that is designed for use with AEK keycaps. This PCB is for use with Apple Standard Keyboard keycaps (M0118, M0116 or IIc).
 
 ## Status:
-- Waiting on prototypes, not implemented in QMK or VIA yet.
+- Waiting on Rev A1 prototypes, not implemented in QMK or VIA yet.
 
 ## Features:
 - QMK & VIA
@@ -25,6 +25,6 @@ Files for manufacturing can be found in releases.
 
 ## Revision history:
 - Rev A1: Initial prototype.
-- Rev A2: Adding support for Apple Desktop Bus (ADB) Keyboard. Number row is rotated 90 degrees.
+- Rev A2: Planned additional support for Apple Desktop Bus (ADB) Keyboard. Number row is rotated 90 degrees.
 
 <a href='https://ko-fi.com/4pplet' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
