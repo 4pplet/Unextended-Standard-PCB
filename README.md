@@ -4,6 +4,7 @@ This PCB is for use with the Standard-edition (the slimmer one) of my Unextended
 
 ## Status:
 - Waiting on Rev A1 prototypes, not implemented in QMK or VIA yet.
+- Test fit using M0118 keycaps done.
 
 ## Features:
 - QMK & VIA
