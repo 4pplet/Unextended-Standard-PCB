@@ -3,8 +3,8 @@
 This PCB is for use with the Standard-edition (the slimmer one) of my Unextended design (https://github.com/4pplet/Unextended). This PCB will NOT fit a standard 60% case or the regular Unextended that is designed for use with AEK keycaps. This PCB is for use with Apple Standard Keyboard keycaps (M0118, M0116 or IIc).
 
 ## Status:
-- Waiting on Rev A1 prototypes, not implemented in QMK or VIA yet.
-- Test fit using M0118 keycaps done.
+- Rev A1 prototypes tested and verified, in process of adding QMK and VIA.
+- Test fit using M0118 and M0116 keycaps done.
 
 ## Features:
 - QMK & VIA
