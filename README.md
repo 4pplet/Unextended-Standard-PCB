@@ -19,13 +19,13 @@ As an option to DIY, I'll try and keep these available for purchase here: https:
 ![alt text](./readme-images/layout_support.jpg "Layout support")
 
 ## PCB View
-![alt text](./readme-images/Unextended_Standard_A1.jpg "PCB View - Rev A")
+![alt text](./readme-images/Unextended_Standard_A2.jpg "PCB View - Rev A")
 
 ## Releases
 Files for manufacturing can be found in releases.
 
 ## Revision history:
 - Rev A1: Initial prototype.
-- Rev A2: Planned additional support for Apple Desktop Bus (ADB) Keyboard. Number row is rotated 90 degrees.
+- Rev A2: Adding additional support for Apple Desktop Bus (ADB) Keyboard. Number row is rotated 90 degrees.
 
 <a href='https://ko-fi.com/4pplet' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
